@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(231, 231, 231);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Header */
+
+header{
+    background-color: #333;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    color: white;
+    font-family: "Long Cang", cursive;
+}
+h1 i{
+    font-size: 3rem;
+    padding: 0 1rem 0 1rem;
+    color: rgb(221, 191, 21);
+}
+header nav{
+
+}
+header nav ul{
+
+}
+header nav ul li{
+    display: inline-block;
+    padding: 3rem;
+    background-color: #333;
+}
+header nav ul li:hover{
+    background-color: #444;
+}
+header nav a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+/* PREMIERE SECTION */
+
+.contentSection1{
+    /* padding: 25rem 0 25rem 0; */
+    background-image: url(../../agence-immo/images/frame.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.contentSection1 div{
+    padding: 16rem 0 16rem 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+.contentSection1 h2{
+    font-size: 5rem;
+    color: white;
+}
+.contentSection1 h2 span{
+    font-weight: normal;
+    color: orange;
+}
+.contentSection1 p{
+    font-size: 3rem;
+    color: #999;
+}
+
+/* DEUXIEMME SECTION */
+
+.contentSection2{
+padding: 14rem 0 14rem 0;
+}
+.contentSection2 h3{
+    font-size: 3rem;
+    padding: 0 0 5rem 2rem;
+}
+.contentSection2 .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.contentSection2 img{
+    width: 36rem;
+}
+.contentSection2 .textContainer{
+    text-align: center;
+    background-color: white;
+}
+.contentSection2 hr{
+    padding: 1rem;
+    margin: 0 auto;
+    width: 5%;
+}
+.contentSection2 p{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
