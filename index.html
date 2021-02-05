@@ -20,9 +20,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Nos offres</a></li>
-                <li><a href="#">Notre équipe</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#offres">Nos offres</a></li>
+                <li><a href="#equipe">Notre équipe</a></li>
+                <li><a href="#formulaire">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +36,7 @@
         </div>
     </section>
     <section class="contentSection2">
-        <h3>Nos dernieres offres</h3>
+        <h3 id="offres">Nos dernieres offres</h3>
         <div class="container">
             <div>
                 <img src="src/images/house-1.jpg" alt="">
@@ -68,7 +68,7 @@
         </div>
     </section>
     <section class="contentSection3">
-        <div class="sect3Img">
+        <div id="equipe" class="sect3Img">
 
         </div>
         <div class="sect3Text">
@@ -84,25 +84,25 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="contentSection4">
         <h3>Ecoutez ce qu'ils pensent de nous</h3>
         <div>
-            <div>
+            <div class="quoteText">
                 <i class="fas fa-quote-left"></i><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia modi.</p><i class="fas fa-quote-right"></i>
             </div>
-            <div>
+            <div class="divPhoto">
                 <img src="src/images/person-3.jpg" alt="">
                 <p>Jean Dupont</p>
-                <p>CEO etoile</p>
+                <p class="textItalic">CEO etoile</p>
             </div>
         </div>
         <div>
-            <div>
+            <div class="divPhoto">
                 <img src="src/images/person-2.jpg" alt="">
                 <p>Arthur Lac</p>
-                <p>Developpeur web</p>
+                <p class="textItalic">Developpeur web</p>
             </div>
-            <div>
+            <div class="quoteText">
                 <i class="fas fa-quote-left"></i><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Repellendus officiis natus ratione accusamus alias, quidem reiciendis
                       rem, ipsum obcaecati minima vero eos suscipit maiores,
@@ -110,24 +110,24 @@
             </div>
         </div>
         <div>
-            <div>
+            <div class="quoteText">
                 <i class="fas fa-quote-left"></i><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum maxime obcaecati tempore fuga veritatis. Labore vel iusto debitis. Blablablablaballoremmdrjailadalle</p><i class="fas fa-quote-right"></i>
             </div>
-            <div>
+            <div class="divPhoto">
                 <img src="src/images/person-1.jpg" alt="">
                 <p>Julie Roux</p>
-                <p>Developpeuse web</p>
+                <p class="textItalic">Developpeuse web</p>
             </div>
         </div>
     </section>
-    <section>
+    <section class="contentSection5">
         <div>
-            <h3>Pour nous <span>contacter</span></h3>
+            <h3 id="formulaire">Pour nous <span>contacter</span></h3>
             <form action="">
                 <input type="text" placeholder="Nom">
                 <input type="text" placeholder="Email">
                 <input type="text" placeholder="Votre message ...">
-                <button></button>
+                <button>Soumettre</button>
             </form>
         </div>
     </section>
