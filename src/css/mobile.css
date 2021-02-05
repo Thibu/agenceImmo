@@ -1,0 +1,102 @@
+@media screen and (min-width: 360px) and (max-width: 775px){
+
+header{
+    flex-flow: column nowrap;
+}
+header nav ul{
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+header nav ul li{
+    padding: 1rem;
+}
+.contentSection1 div{
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+}
+.contentSection1 h2 {
+    font-size: 2rem
+}
+.contentSection2 img{
+    width: 30rem;
+}
+.contentSection1 p {
+    font-size: 1.5rem;
+}
+.contentSection2{
+    padding: 1rem;
+}
+.contentSection2 h3{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.contentSection2 .textContainer p{
+    font-size: 1rem;
+}
+.contentSection3{
+
+}
+.contentSection3 .sect3Img{
+    display: none;
+}
+.contentSection3 .sect3Text{
+    padding: 1rem 0 1rem 0;
+    min-height: 100%;
+    font-size: 1rem;
+}
+.contentSection4{
+    padding: 0;
+}
+.contentSection4 h3{
+    margin: 0;
+    font-size: 2rem;
+    padding: 1rem;
+}
+.contentSection4 div{
+    padding: 0;
+    flex-flow: column wrap;
+}
+.contentSection4 div p{
+    font-size: 1.2rem;
+}
+.contentSection5{
+    min-height: initial;
+    width: 100%;
+}
+.contentSection5 h3{
+    font-size: 2rem;
+}
+.contentSection5 form{
+    padding-bottom: 1rem;
+}
+.contentSection5 form input{
+    font-size: 1.5rem;
+    padding: 0;
+}
+.contentSection5 button{
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+}
+footer{
+    padding: 2rem 0 2rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
